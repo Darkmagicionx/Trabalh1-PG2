@@ -60,10 +60,10 @@ void print_binary(int num)
 
 	for(unsigned int mask = 1 << (INT_BIT_SIZE - 1) ; mask ; mask >>= 1)
 	{
-		if(mask & num)
-		{
+		if(mask & num) 
+		{ 
 			printf("1");
-		}
+		}		
 		else
 		{
 			printf("0");
